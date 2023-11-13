@@ -1,0 +1,197 @@
+@charset "utf-8";
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #888888;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inner {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    padding: 14px 48px;
+    color: #FFFFFF;
+    background-color: #FA6980;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.66;
+}
+
+.black {
+    display: inline-block;
+    margin-top: 25px;
+    background-color: #202124;
+}
+
+.right {
+    text-align: right;
+}
+
+/* header
+------------------------------------------------------ */
+header {
+    margin: 30px 0 60px;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* morenwes
+------------------------------------------------------ */
+.ttl {
+    margin-bottom: 30px;
+    padding-left: 10px;
+    border-left: 10px solid #FA6980;
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.29;
+}
+
+/* card
+------------------------------------------------------ */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 47.5%;
+    margin-bottom: 60px;
+}
+
+.card__sub-ttl {
+    color: #FA6980;
+    font-size: 12px;
+    font-style: oblique;
+    line-height: 1.66;
+}
+
+.card__ttl {
+    margin: 10px 0 15px;
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.27;
+}
+
+.card__time {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card__time-text {
+    padding-left: 10px;
+    color: #BBBBBB;
+}
+
+/* trending
+------------------------------------------------------ */
+.trending {
+    padding: 60px 0;
+    background-color: #F6F6F6;
+}
+
+.trending__card {
+    width: 47.5%;
+}
+
+.trending__card-bg {
+    padding: 35px;
+    background-color: #FFFFFF;
+    text-align: right;
+}
+
+.trending__ttl {
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.27;
+    text-align: left;
+}
+
+.trending__text {
+    margin: 15px 0 25px;
+    text-align: left;
+}
+
+/* footer
+------------------------------------------------------ */
+.footer {
+    padding: 100px 0 40px;
+    color: #FFF;
+    background-color: #202124;
+}
+
+/* about
+------------------------------------------------------ */
+.about {
+    margin-bottom: 60px;
+}
+
+.about__card {
+    margin-bottom: 40px;
+}
+
+.about__ttl {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+
+/* discoverry
+------------------------------------------------------ */
+.discoverry {
+    padding: 60px 0;
+    background-color: #F6F6F6;
+}
+
+.discoverry__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discoverry__card {
+    width: 30%;
+    background-color: #FFF;
+}
+
+.discoverry__bg {
+    padding: 35px;
+}
+
+.discoverry__ttl {
+    margin-bottom: 20px;
+    color: #202124;
+    font-size: 18px;
+    line-height: 1.27;
+}
+
+.discoverry__time {
+    display: flex;
+    align-items: center;
+}
+
+.discoverry__time-text {
+    margin-left: 10px;
+}
